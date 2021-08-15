@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body,.normal-bg{
+  background-color: #fafafa;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.text-center{
+  text-align: -webkit-center;
+  text-align: -moz-center;
+}
+
+.bg-purple-custom{
+  background-color: #7f1aa8;
+}
+
+.bg-purple-secondary{
+  background-color: #350865;
+}
+
+.w-500{
+  width:500px
+}
+
+.w-400{
+  width:400px
+}
+
+.c-container{
+  width: 500px;
+}
+
+
+.MuiCheckbox-colorSecondary.Mui-checked {
+  color: #801aae !important;
+}
+
+.buttonsPMDiv{
+  background-color: transparent;
+  margin-right:-40px;
+  margin-top: 3%;
+}
+
+.buttonsPMDivTop{ 
+  border-top-right-radius: 100%;
+}
+
+.buttonsPMDivBottom{
+  border-bottom-right-radius: 100%;
+}
+
+.buttonsPMDivMiddle{
+
+}
+
+
+
+
+
+
